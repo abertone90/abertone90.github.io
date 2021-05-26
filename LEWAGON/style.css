@@ -1,0 +1,38 @@
+#contenedor {
+    width: 500px;
+    height: 500px;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    margin-top: -250px;   /* height/2 = 500px / 2 */
+    margin-left: -250px;  /* width/2 = 500px / 2 */
+  }
+  .banner{
+    color: wheat;
+    font-size: 40px;
+    opacity: 0.85;
+    font-variant: small-caps
+  }
+
+body{
+  
+    background: url(fondo.jpg);   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+ 
+};
+
+h1{
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+
+}
+
+
